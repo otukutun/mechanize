@@ -46,7 +46,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 1.9.2"
 
   spec.add_runtime_dependency "net-http-digest_auth", [ ">= 1.1.1", "~> 1.1" ]
-  spec.add_runtime_dependency "net-http-persistent",  [ ">= 2.5.2", "~> 2.5" ]
+  spec.add_runtime_dependency "net-http-persistent",  [ ">= 3.0.0" ]
   if RUBY_VERSION >= "2.0"
     spec.add_runtime_dependency "mime-types", [ ">= 1.17.2" ]
   else
